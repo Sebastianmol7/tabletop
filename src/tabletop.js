@@ -38,7 +38,7 @@
   /*
     Initialize with Tabletop.init( { key: '0AjAPaAU9MeLFdHUxTlJiVVRYNGRJQnRmSnQwTlpoUXc' } )
       OR!
-    Initialize with Tabletop.init( { key: 'https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AjAPaAU9MeLFdHUxTlJiVVRYNGRJQnRmSnQwTlpoUXc&output=html&widget=true' } )
+    Initialize with Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/11Gxeg83d_y527QL7QKOiOUneHTTllBQ3cuzZVQCgGzg/pubhtml' } )
       OR!
     Initialize with Tabletop.init('0AjAPaAU9MeLFdHUxTlJiVVRYNGRJQnRmSnQwTlpoUXc')
   */
