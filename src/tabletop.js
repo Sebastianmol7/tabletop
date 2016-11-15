@@ -43,7 +43,8 @@
       OR!
     Initialize with Tabletop.init('0AjAPaAU9MeLFdHUxTlJiVVRYNGRJQnRmSnQwTlpoUXc')
   */
-
+Initialize with Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/11Gxeg83d_y527QL7QKOiOUneHTTllBQ3cuzZVQCgGzg/pubhtml' } )
+  
   var Tabletop = function(options) {
     // Make sure Tabletop is being used as a constructor no matter what.
     if(!this || !(this instanceof Tabletop)) {
