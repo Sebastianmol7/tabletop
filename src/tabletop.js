@@ -1,5 +1,21 @@
 (function() {
   "use strict";
+  <script type="text/javascript">
+  window.onload = function() { init() };
+
+  var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/11Gxeg83d_y527QL7QKOiOUneHTTllBQ3cuzZVQCgGzg/pubhtml';
+
+  function init() {
+    Tabletop.init( { key: https://docs.google.com/spreadsheets/d/11Gxeg83d_y527QL7QKOiOUneHTTllBQ3cuzZVQCgGzg/pubhtml,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+
+  function showInfo(data, tabletop) {
+    alert("Successfully processed!")
+    console.log(data);
+  }
+</script>
   var inNodeJS = false;
   if (typeof process !== 'undefined' && !process.browser) {
     inNodeJS = true;
